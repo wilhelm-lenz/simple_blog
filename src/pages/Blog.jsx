@@ -1,5 +1,11 @@
+import CardList from "../components/cardList/CardList";
+
 const Blog = () => {
-  return <div></div>;
+  return (
+    <>
+      <CardList />
+    </>
+  );
 };
 
 export default Blog;

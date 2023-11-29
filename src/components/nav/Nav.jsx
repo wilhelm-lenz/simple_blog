@@ -1,5 +1,18 @@
+import { Link } from "react-router-dom";
+import "./Nav.scss";
+
 const Nav = () => {
-  return <div></div>;
+  return (
+    <section className="section-navigation">
+      <nav className="container nav-bar">
+        <Link to="/" className="logo">
+          My Life
+        </Link>
+        <Link to="/">Home</Link>
+        <Link to="/blog">Blog</Link>
+      </nav>
+    </section>
+  );
 };
 
 export default Nav;
