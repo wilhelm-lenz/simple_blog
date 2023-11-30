@@ -27,7 +27,7 @@ body {
   font-weight: 400;
   color: #555;
   font-size: 1.6rem;
-  background-color: #fdf2e9;
+  background-color: rgb(33, 37, 41);
 }
 
 .container {
@@ -42,9 +42,12 @@ img {
 
 .heading-primary {
   font-family: "Robote-Black";
-  color: #0d4625;
-  font-size: 3.2rem;
-  margin-top: 12rem;
-  max-width: 20%;
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 16rem;
+  max-width: 40%;
   margin-left: 5%;
+  position: relative;
+  z-index: 7;
+  line-height: 1.2;
 }

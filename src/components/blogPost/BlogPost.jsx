@@ -12,7 +12,10 @@ const BlogPost = () => {
         if (index === idOfBlogPost) {
           {
             return (
-              <section key={idOfBlogPost} className="section-blog-post">
+              <section
+                key={idOfBlogPost}
+                className="container section-blog-post"
+              >
                 <img
                   src={img_url}
                   alt={"Picture taken by " + author}
