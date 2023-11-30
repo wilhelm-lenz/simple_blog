@@ -3,7 +3,7 @@ import "./Blog.scss";
 
 const Blog = () => {
   return (
-    <main className="main-blog">
+    <main className="main-blog container">
       <CardList />
     </main>
   );

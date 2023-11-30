@@ -16,11 +16,7 @@
   z-index: 0;
 }
 
-.main {
-}
-
 .section-hero {
-  margin-left: 5%;
   padding-top: 8rem;
   position: relative;
   z-index: 7;
@@ -31,9 +27,6 @@
   padding-bottom: 0.8rem;
   text-transform: capitalize;
   display: inline-block;
-}
-
-.highlighting::first-line {
   font-size: 7rem;
   color: #087f5b;
 }
